@@ -79,7 +79,7 @@ public class Client {
         IAccountDao accountDao = ac.getBean("accountDao", IAccountDao.class);
 
         System.out.println(accountService);
-        System.out.println(accountService);
+        System.out.println(accountDao);
 
 
     }
